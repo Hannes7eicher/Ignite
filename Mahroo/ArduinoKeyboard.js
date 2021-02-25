@@ -15,7 +15,7 @@ void loop() {
     Keyboard.write(0xB0);  //send Hex value for Return key
     delay(200);           
   }
-  else if (digitalRead(3) == 0){  //if button 3 is pressed
+  else (digitalRead(3) == 0){  //if button 3 is pressed
     Keyboard.write(0xB3);         //send Hex value for TAB key
     delay(200);
   }
