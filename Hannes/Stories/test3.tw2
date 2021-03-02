@@ -1,0 +1,46 @@
+::Configuration [twee2]
+Twee2::build_config.story_ifid = '41AB7776-D198-40F5-BD54-0493D49DA58C'
+Twee2::build_config.story_format = 'SugarCube'
+
+::StoryTitle
+Test 3
+
+::Start
+    *music playing*
+
+    It's Friday morning. You wait at the subway station to meet the friend who has your gym card. She's already 10 minutes late so you decide to call her.
+
+    No answer.
+
+    You send her a message and wait for a bit more, but you will need to leave for work soon.
+
+
+    [[wait a bit more]]
+
+::wait a bit more
+    Still nothing.
+
+
+    [[wait some more]]
+
+::wait some more
+    Okay it's too late. You have to go to work now.
+
+
+    [[get on the subway]]
+
+::get on the subway
+    *music still playing*
+
+    It's quite crowded today.
+
+    You receive a message from the friend who borrowed your gym card. It says:
+
+    "Hi! Sorry I didn't show up today, forgot to tell you. I put the card in your mailbox yesterday. Hope that works!"
+
+    She could have told you earlier.. Well, at least you'll have it back soon. You put your phone back to your pocket.
+
+        [[look out the window]]
+
+::look out the window   
+    
