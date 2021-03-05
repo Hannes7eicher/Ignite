@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pandemonium</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="checkOptions('janitor'); checkOptions('Sathanus'); checkOptions('Asmodeus'); loadPage()">
+
+    <div class="status">
+        <h3>Status</h3>
+        <p id="inventory"></p>
+        <p id="fearPoints"></p>
+    </div>
+
+    <div class="content">
+        <h1>15.</h1>
+        <p>The East wing is one long corridor and is dimly lit, there are a total of four rooms, labelled 'Belphegor', 'Sathanus', 'Asmodeus' and an unnamed room.</p>
+        <p>Which room do you wish to go?</p>
+    </div>
+    
+    <div class="choices">
+        <button id="Sathanus" type="button" onclick=changePage("16.html")>Go to the room named 'Sathanus'</button><br><br>
+        <button id="Asmodeus" type="button" onclick=changePage("17.html")>Go to the room named 'Asmodeus'</button><br><br>
+        <button id="janitor" type="button" onclick=changePage("18.html")>Go to the unnamed room</button><br><br>
+        <button type="button" onclick=changePage("19.html")>Return to your room, 'Belphegor' to rest for the night</button><br><br>
+        <button type="button" onclick=changePage("20.html")>Leave the East Wing</button><br>
+    </div>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+    
+</body>
+
+</html>
