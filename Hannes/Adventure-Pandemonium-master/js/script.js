@@ -24,25 +24,8 @@ function init() {
     localStorage.setItem("fearTooltip", "The amount of Fear your character is experiencing. Fear increases when your character experiences horrific incidents, and decreases when you solve puzzles or feel safer. Manage your Fear carefully as when your Fear reaches 10 you will die by fright...");
     
     console.log("game initialized");
-    loadPage();
 }
 
-// Game variables
-function loadPage() {
-
-    var fearPoints = localStorage.getItem("fearPoints");
-    var itemsList = JSON.parse(localStorage.getItem("itemsList"));
-
-    var itemsTooltip = localStorage.getItem("itemsTooltip");
-    var fearTooltip = localStorage.getItem("fearTooltip");
-
-    document.getElementById("inventory").innerHTML = "Items: " + itemsList.toString();
-    document.getElementById("fearPoints").innerHTML = "Fear level: " + fearPoints + " / 10";
-    document.getElementById("inventory").title = itemsTooltip;
-    document.getElementById("fearPoints").title = fearTooltip;
-
-    console.log("page loaded");
-}
 
 // Changes booleans in boolsDict
 function updateDict(key){
@@ -115,11 +98,3 @@ function getRandomIntInclusive(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
-
-var input = document.getElementById("doorBtn");
-input.addEventListener("keydown", function(event) {
-    if (event.key === 13) {
-        event.preventDefault();
-        document.getElementById("doorbtn").click();
-    }
-});
