@@ -18,14 +18,11 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
     font-size:1vw;
 }
 
- .myBtn1:hover {
-    color: whitesmoke;
-    background: none;
-    border: none;
-    text-shadow: 0 12px 16px 0 rgb(255, 0, 0),0 17px 50px 0 rgb(255, 0, 0);
-    padding: 0;
-    text-decoration: underline;
-  } 
+.active, .myBtn1:hover {
+  text-shadow: 0 12px 16px 0 rgb(255, 0, 0),0 17px 50px 0 rgb(255, 0, 0);
+  padding: 0;
+  text-decoration: underline;
+}
 
   .slidecontainer {
     width: 100%;
