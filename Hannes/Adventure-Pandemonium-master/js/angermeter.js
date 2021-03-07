@@ -9,45 +9,10 @@ var portName = 'COM4';    // fill in your serial port name here
 var inData;   // variable to hold the input data from Arduino
 var newData;
 let width = 1;
+var anger;
 
-document.addEventListener('keydown', function (event) {
-  if (event.key === 'd') {
-    // document.getElementById("myBtn1").style.textDecoration = "underline"; 
-    document.getElementById("myBtn1").style.textTransform = "uppercase"; 
-    console.log("d");
-  }
 
-  if (event.key === 'l') {
-    document.getElementById('myBtn1').style.color = 'whitesmoke'
-    document.getElementById("myBtn1").style.textDecoration = "none"; 
-    document.getElementById("myBtn1").style.textTransform = "lowercase"; 
-    console.log("l");
-  }
-});
 
-// document.addEventListener("keydown", function(event) {
-// 	if (event.keycode == 76) {
-// 		document.getElementById("button1").style.color = "green";
-//     document.getElementById("Buttons").style.color = "whitesmoke";
-//     document.getElementById("Buttons").style.textShadow = "0 12px 16px 0 #ff0000, 0 17px 50px 0 #ff0000";
-//     document.getElementById("Buttons").style.textdecoration = underline;
-
-// 	} else {
-// 		document.getElementById("button1").style.color = "white";
-// 	}
-
-// 	if (event.keycode == 77) {
-// 		document.getElementById("button2").style.color = "black";
-// 	} else {
-// 		document.getElementById("button2").style.color = "white";
-// 	}
-
-// 	if (event.keycode == 78) {
-// 		document.getElementById("button3").style.color = "black";
-// 	} else {
-// 		document.getElementById("button3").style.color = "white";
-// 	}
-//   });
 
 
 function setup() {
@@ -88,17 +53,19 @@ output.innerHTML = a;
   var numb = [];
   var a;
 
+
 //   function showParagraph() {
 //     a = document.getElementById('result').innerHTML;
 // }
 
   function inDataStore() {
     a = document.getElementById("result").innerHTML = inData;  
-    console.log(a);
+    if (a > 50) {
+      console.log("very angry!!!")
+    } else {console.log("not so angry")}
 
-    var text = '42px';
-  var integer = parseInt(text, 10);
-    
+
+    localStorage.setItem("numberLS", a);  
   }
 
 

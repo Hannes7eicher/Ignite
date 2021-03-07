@@ -1,4 +1,4 @@
-body {  background-color: black; }
+body {  background-color: black; overflow: hidden; }
 
 h1 { color: rgb(255, 255, 255); font-size: 250%; font-family: "Courier New", monospace; }
 
@@ -18,11 +18,38 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
     font-size:1vw;
 }
 
-.active, .myBtn1:hover {
-  text-shadow: 0 12px 16px 0 rgb(255, 0, 0),0 17px 50px 0 rgb(255, 0, 0);
-  padding: 0;
-  text-decoration: underline;
+.myBtn2 {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  margin-left: 30px;
+  font-size:1vw;
 }
+
+.myBtn3 {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  margin-left: 30px;
+  font-size:1vw;
+}
+
+.special {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  margin-left: 30px;
+  font-size:1vw;
+}
+
+.saveBtn {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  margin-left: 30px;
+  font-size:1vw;
+}
+
 
   .slidecontainer {
     width: 100%;
