@@ -5,7 +5,7 @@ https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-
 */
 
 var serial;   // variable to hold an instance of the serialport library
-var portName = 'COM4';    // fill in your serial port name here
+var portName = 'COM8';    // fill in your serial port name here
 var inData;   // variable to hold the input data from Arduino
 var newData;
 let width = 1;
@@ -91,7 +91,7 @@ function portOpen() {
 }
 
 function serialEvent() {
-  inData = Number(serial.read()) * 0.5;
+  inData = Number(serial.read()) * 2.5;
 }
 
 function serialError(err) {

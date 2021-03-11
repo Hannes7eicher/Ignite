@@ -10,28 +10,49 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
 
 #dead { color: red; font-size: 150%; font-style: italic ;}
 
+/* .choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+} */
+
+.choices{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position:absolute;
+  bottom:0px;
+  right:25%;
+  left:25%;
+}
+
+
+
 .myBtn1 {
     color: whitesmoke;
     background: none;
     border: none;
-    margin-left: 30px;
     font-size:1vw;
+    margin: 35px;
 }
 
 .myBtn2 {
   color: whitesmoke;
   background: none;
   border: none;
-  margin-left: 30px;
   font-size:1vw;
+  margin: 35px;
 }
 
 .myBtn3 {
   color: whitesmoke;
   background: none;
   border: none;
-  margin-left: 30px;
   font-size:1vw;
+  margin: 15px;
 }
 
 .special {

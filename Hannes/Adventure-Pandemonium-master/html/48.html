@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <p>
+            Okay it's too late. You have to go to work now.
+        </p>
+
+        <p id="question">
+            Hi there Soul 647, to keep track of your emotional state, please report how you feel regarding the following emotion: Anger.
+
+
+            Indicate for 3 seconds to stabilise the value. 
+        </p>
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("49.html")>continue</button><br><br>
+    </div>
+
+    <div class="w3-container">
+
+        <div class="w3-light-grey">
+            <div id="myBar" class="w3-green" style="height:24px;width:0;background-color:rgb(255, 0, 0)"></div>
+        </div>
+        <br>
+    </div>
+
+
+    <button id="saveBtn" class="saveBtn" onclick="inDataStore()">Save</button>
+
+
+    <p id="result"></p>
+
+    <script src="..\js\angermeter.js"></script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
