@@ -105,6 +105,8 @@ document.addEventListener('keydown', function (event) {
 
 var value = localStorage.getItem("numberLS"); 
 var result = Number(value); 
+var emotion = "";
+
 
 document.getElementById("anger").innerHTML = result;
 
@@ -121,6 +123,9 @@ else if (result > 50 && result < 70) {
 } else if (result > 70) {
     document.getElementById("myBtn3").style.visibility = "visible";
 }
+
+
+document.getElementById("emotion").innerHTML = emotion;
 
 
 

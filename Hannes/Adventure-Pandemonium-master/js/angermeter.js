@@ -11,7 +11,9 @@ var newData;
 let width = 1;
 var anger;
 
-
+if(inData > 0) {
+console.log("WOW")
+}
 
 
 
@@ -58,17 +60,45 @@ output.innerHTML = a;
 //     a = document.getElementById('result').innerHTML;
 // }
 
+// emotion1 = function () {
+//   emotion = "Not angry at all"
+// };
+// emotion2 = function () {
+//   emotion = "Provoked"
+// };
+// emotion3 = function () {
+//   emotion = "Angry"
+// };
+// emotion4 = function () {
+//   emotion = "Very angry"
+// };
+// emotion5 = function () {
+//   emotion = "Furious"
+// };
+
   function inDataStore() {
     a = document.getElementById("result").innerHTML = inData;  
-    if (a > 50) {
-      console.log("very angry!!!")
-    } else {console.log("not so angry")}
-
+    document.getElementById("emotion").innerHTML = emotion;
+    if (inData < 20) {
+      emotion = "not so angry";
+     } if (inData > 25) {
+       emotion = "Provoked";
+     } if (inData > 40) {
+       emotion = "Angry";
+    }  if (inData > 60) {
+      emotion = "Very angry";
+    }  if (inData > 70) {
+      emotion = "Furious";
+    }
 
     localStorage.setItem("numberLS", a);  
   }
 
 
+// setTimeout(function () {
+//   inDataStore();
+//   console.log("WORKS")
+// }, 1000);
 
 
 

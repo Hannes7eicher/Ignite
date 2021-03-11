@@ -116,4 +116,36 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
     visibility: hidden;
   }
 
+  .anger1{
+    position:absolute;
+    left: 0%;
+    font-size:2vw;
+  }
+  
+  .anger2{
+    position:absolute;
+    left: 20%;
+    font-size:2vw;
+  }
+
+  .anger3{
+    position:absolute;
+    left: 40%;
+    font-size:2vw;
+  }
+
+  .anger4{
+    position:absolute;
+    left: 60%;
+    font-size:2vw;
+  }
+
+  .anger5{
+    position:absolute;
+    left: 80%;
+    font-size:2vw;
+  }
+
+
+
 
