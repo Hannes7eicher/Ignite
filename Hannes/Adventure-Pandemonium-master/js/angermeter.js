@@ -5,16 +5,13 @@ https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-
 */
 
 var serial;   // variable to hold an instance of the serialport library
-var portName = 'COM8';    // fill in your serial port name here
+var portName = 'COM6';    // fill in your serial port name here
 var inData;   // variable to hold the input data from Arduino
 var newData;
 let width = 1;
 var anger;
 
-if(inData > 0) {
-console.log("WOW")
-}
-
+var angerHistory = [];
 
 
 function setup() {
@@ -33,6 +30,8 @@ function setup() {
 }
 
 
+
+
 move();
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
@@ -49,56 +48,64 @@ function move() {
 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("slide");
-output.innerHTML = a;
+//output.innerHTML = a;
 
+ var x = document.getElementById("emotion").textContent;
 
-  var numb = [];
   var a;
 
 
-//   function showParagraph() {
-//     a = document.getElementById('result').innerHTML;
-// }
+var start;
+var elapsed;
 
-// emotion1 = function () {
-//   emotion = "Not angry at all"
-// };
-// emotion2 = function () {
-//   emotion = "Provoked"
-// };
-// emotion3 = function () {
-//   emotion = "Angry"
-// };
-// emotion4 = function () {
-//   emotion = "Very angry"
-// };
-// emotion5 = function () {
-//   emotion = "Furious"
-// };
+function startTime () {
+  start = new Date().getTime();
+}
+
+function currentTime () {
+   elapsed = new Date().getTime() - start;
+}
+
+function resetTime () {
+  start = 0;
+}
+
+var seconds = 0;
+
+function incrementSeconds() {
+    seconds += 1;
+}
+
+
 
   function inDataStore() {
     a = document.getElementById("result").innerHTML = inData;  
     document.getElementById("emotion").innerHTML = emotion;
-    if (inData < 20) {
-      emotion = "not so angry";
-     } if (inData > 25) {
+    if (inData > 0 && inData < 20 ) {
+        emotion = "not so angry";
+        angerHistory.push(x);
+     } if (inData > 20 && inData < 40) {
        emotion = "Provoked";
-     } if (inData > 40) {
+     } if (inData > 40 && inData < 60) {
        emotion = "Angry";
-    }  if (inData > 60) {
+    }  if (inData > 60 && inData < 80) {
       emotion = "Very angry";
-    }  if (inData > 70) {
+    }  if (inData > 80) {
       emotion = "Furious";
     }
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+
+// slider.oninput = function() {
+//   output.innerHTML = this.value;
+// }
+
 
     localStorage.setItem("numberLS", a);  
   }
 
 
-// setTimeout(function () {
-//   inDataStore();
-//   console.log("WORKS")
-// }, 1000);
 
 
 
