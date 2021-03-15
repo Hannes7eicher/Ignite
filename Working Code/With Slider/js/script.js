@@ -99,7 +99,7 @@ document.addEventListener('keydown', function (event) {
         changeX();
     }
     if (x == 1) {
-        document.getElementById("myBtn1").style.color = "green";
+        document.getElementById("myBtn1").style.color = "lightblue";
         document.getElementById("myBtn1").style.textDecoration = "underline";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
@@ -122,7 +122,7 @@ document.addEventListener('keydown', function (event) {
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
-            document.getElementById("myBtn2").style.color = "green";
+            document.getElementById("myBtn2").style.color = "lightblue";
             document.getElementById("myBtn2").style.textDecoration = "underline";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
@@ -145,7 +145,7 @@ document.addEventListener('keydown', function (event) {
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
-            document.getElementById("myBtn3").style.color = "green";
+            document.getElementById("myBtn3").style.color = "lightblue";
             document.getElementById("myBtn3").style.textDecoration = "underline";
         } 
         //console.log("case three");
