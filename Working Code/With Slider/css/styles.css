@@ -49,6 +49,7 @@ p { color: white; font-size: 110%; margin: 5%; font-size:1vw; font-family: "Corm
     border: none;
     font-size:1vw;
     margin: 35px;
+    text-transform: uppercase;
 }
 
 .myBtn2 {
@@ -57,6 +58,7 @@ p { color: white; font-size: 110%; margin: 5%; font-size:1vw; font-family: "Corm
   border: none;
   font-size:1vw;
   margin: 35px;
+  text-transform: uppercase;
 }
 
 .myBtn3 {
@@ -65,6 +67,7 @@ p { color: white; font-size: 110%; margin: 5%; font-size:1vw; font-family: "Corm
   border: none;
   font-size:1vw;
   margin: 15px;
+  text-transform: uppercase;
 }
 
 .special {
