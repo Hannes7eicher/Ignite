@@ -14,23 +14,29 @@
 
 
     <div class="content">
-        <p id="text">Great.
+        <h2 id="text">Great.
 
-            that's for the visuals.
+            That's for the visuals.
 
-            What should the title of the page on social media say?</p>
+            What should the title of the page on social media say?</h2>
 
 
     </div>
 
 
     <div class="choices">
-        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("27.html")>Social media strategy</button><br><br>
-        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("27.html")>Strategies for social media</button><br><br>
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("27.html")>Social media
+            strategy</button><br><br>
+        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("27.html")>Strategies for social
+            media</button><br><br>
     </div>
 
     <script>
         document.body.style.backgroundColor = localStorage.getItem("color");
+        document.body.style.font = localStorage.getItem("color");
+        document.getElementById("text").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("myBtn1").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("myBtn2").style.fontFamily = localStorage.getItem("font");
         document.getElementById("text").style.color = "black";
         document.getElementById("myBtn1").style.color = "black";
         document.getElementById("myBtn2").style.color = "black";
