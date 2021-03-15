@@ -1,6 +1,7 @@
 var x = 1;
 var buttonCount = 1;
 var background;
+var font;
 
 document.getElementById("myBtn1").style.textTransform = "uppercase";
 document.getElementById("myBtn1").style.textDecoration = "underline";
@@ -35,32 +36,28 @@ var changeBackground4 = function () {
 
 var changeFont1 = function () {
     document.getElementById("text").style.fontFamily = "'Courier New', monospace"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Courier New', monospace"; 
+    font = localStorage.setItem('font', 'Courier New, monospace');
 }
 
 var changeFont2 = function () {
     document.getElementById("text").style.fontFamily = "Garamond, serif"; 
+    document.getElementById("myBtn1").style.fontFamily = "Garamond, serif"; 
+    font = localStorage.setItem('font', 'Garamond, serif');
 }
 
 var changeFont3 = function () {
     document.getElementById("text").style.fontFamily = "'Trebuchet MS', sans-serif"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Trebuchet MS', sans-serif"; 
+    font = localStorage.setItem('font', "'Trebuchet MS', sans-serif");
 }
 
 var changeFont4 = function () {
     document.getElementById("text").style.fontFamily = "'Brush Script MT', cursive"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Brush Script MT', cursive"; 
+    font = localStorage.setItem('font', "'Brush Script MT', cursive");
 }
 
-
-if (background == 0) {
-    document.body.style.backgroundColor = "rgb(0, 0, 0)";
-} else if (background == 1) {
-    document.body.style.backgroundColor = "rgb(217, 182, 182)";
-} else if (background == 2) {
-    document.body.style.backgroundColor = "rgb(187, 179, 227)";
-} else if (background == 3) {
-    document.body.style.backgroundColor = "rgb(191, 234, 167)";
-} else if (background == 4) {
-    document.body.style.backgroundColor = "rgb(230, 232, 141)";
-}
 
 
 
