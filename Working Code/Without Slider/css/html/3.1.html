@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+
+        <p id="question">
+            The device in the middle is only used in certain scenarios. 
+            To use it the top part must be pressed into the base. You might want to be standing up when using it and don't be afraid of using your bodyweight for interacting with it.
+            Try it to see what happens.
+        </p>
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("3.html")>continue</button><br><br>
+    </div>
+
+    <div class="w3-container">
+
+        <div class="w3-light-grey">
+            <div id="myBar" class="w3-green" style="height:24px;width:0;background-color:rgb(255, 0, 0)"></div>
+        </div>
+        <br>
+    </div>
+    <p>press continue when you are ready</p>
+
+
+    <button hidden  id="saveBtn" class="saveBtn" onclick="inDataStore()">Save</button>
+    
+
+    <p  id="result"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="emotion"></p>
+
+    <script src="..\js\angermeter.js"></script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
