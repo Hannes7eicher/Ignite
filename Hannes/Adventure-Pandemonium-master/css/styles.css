@@ -4,13 +4,13 @@ h1 { color: white; font-size: 150%; margin: 5%; font-family: "Courier New", mono
 
 h3 { color: red; font-size: 150%; }
 
-i { color: white; font-size: 100%; font-family: "Cormorant Garamond" }
+i { color: white; font-size: 110%; font-family: "Cormorant Garamond" }
 
-p { color: white; font-size: 100%; margin: 5%; font-size:1vw; font-family: "Cormorant Garamond" }
+p { color: white; font-size: 110%; margin: 5%; font-size:1vw; font-family: "Cormorant Garamond" }
 
 #dead { color: red; font-size: 150%; font-style: italic ;}
 
-h2 { color: white; font-size: 150%; margin: 5%; font-family: "Courier New", monospace; }
+h2 { color: white; font-size: 110%; margin: 5%; font-family: "Courier New", monospace; }
 
 /* .choices {
   display: flex;
