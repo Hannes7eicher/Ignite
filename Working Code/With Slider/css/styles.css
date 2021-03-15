@@ -11,9 +11,12 @@ body {
 
 h1 {
   color: white;
-  font-size: 150%;
+  font-size: 5vw;
   margin: 5%;
-  font-family: "Courier New", monospace;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 20%;
+
 }
 
 h2 {
@@ -25,10 +28,11 @@ h2 {
 }
 
 h3 {
-  color: red;
-  font-size: 150%;
+  color: white;
+  font-size: 10%;
+  margin: 5%;
+  font-family: "Roboto";
 }
-h3 { color:grey; font-size: 150%; }
 
 i {
   color: white;
