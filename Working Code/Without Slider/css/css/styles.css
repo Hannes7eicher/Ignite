@@ -1,12 +1,14 @@
 body {  background-color: black; overflow: hidden; }
 
-h1 { color: rgb(255, 255, 255); font-size: 250%; font-family: "Courier New", monospace; }
+h1 { color: white; font-size: 150%; margin: 5%; font-family: "Courier New", monospace; }
+
+h2 { color: white; font-size: 110%; margin: 5%; font-family: "Courier New", monospace; }
 
 h3 { color: red; font-size: 150%; }
 
-i { color: grey; font-size: 125%; }
+i { color: white; font-size: 110%; font-family: "Cormorant Garamond" }
 
-p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
+p { color: white; font-size: 110%; margin: 5%; font-size:1vw; font-family: "Cormorant Garamond" }
 
 #dead { color: red; font-size: 150%; font-style: italic ;}
 
@@ -35,7 +37,8 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
     color: whitesmoke;
     background: none;
     border: none;
-    font-size:1vw;
+    font-size:1.5vw;
+    font-family:"Cinzel";
     margin: 35px;
 }
 
@@ -43,7 +46,8 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
   color: whitesmoke;
   background: none;
   border: none;
-  font-size:1vw;
+  font-size:1.5vw;
+  font-family:"Cinzel";
   margin: 35px;
 }
 
@@ -51,7 +55,8 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
   color: whitesmoke;
   background: none;
   border: none;
-  font-size:1vw;
+  font-size:1.5vw;
+  font-family:"Cinzel";
   margin: 15px;
 }
 
