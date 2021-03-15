@@ -23,14 +23,11 @@ h2 {
   font-family: "Courier New", monospace;
 }
 
-<<<<<<< HEAD
 h3 {
   color: red;
   font-size: 150%;
 }
-=======
 h3 { color:grey; font-size: 150%; }
->>>>>>> 9990b03a10e03aa0654814af7c1c0d5679f69561
 
 i {
   color: white;
@@ -61,16 +58,7 @@ p {
   left: 40%;
 } */
 
-<<<<<<< HEAD
 .choices {
-=======
-.date {
-  margin-top: 25px;
-  margin-left: 25px;
-}
-
-.choices{
->>>>>>> 9990b03a10e03aa0654814af7c1c0d5679f69561
   justify-content: center;
   align-items: center;
   display: flex;
