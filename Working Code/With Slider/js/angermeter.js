@@ -81,20 +81,26 @@ function incrementSeconds() {
 }
 
 
+function saveValue() {
+  if (slider.value > 0 && slider.value < 20){
+    console.log(slider.value);
+     angerWord = localStorage.setItem('angerWord', 'slider.value');
+    angerNumb = localStorage.setItem('angerNumb', 'Not angry at all');
+  }
+}
 
   function inDataStore() {
-    a = document.getElementById("result").innerHTML = inData;  
     document.getElementById("emotion").innerHTML = emotion;
-    if (inData > 0 && inData < 20 ) {
+    if (anger > 0 && anger < 20 ) {
         emotion = "not so angry";
         angerHistory.push(x);
-     } if (inData > 20 && inData < 40) {
+     } if (anger > 20 && anger < 40) {
        emotion = "Provoked";
-     } if (inData > 40 && inData < 60) {
+     } if (anger > 40 && anger < 60) {
        emotion = "Angry";
-    }  if (inData > 60 && inData < 80) {
+    }  if (anger > 60 && anger < 80) {
       emotion = "Very angry";
-    }  if (inData > 80) {
+    }  if (anger > 80) {
       emotion = "Furious";
     }
 
@@ -106,7 +112,7 @@ var output = document.getElementById("demo");
 // }
 
 
-    localStorage.setItem("numberLS", a);  
+    localStorage.setItem("numberLS", anger);  
   }
 
 
