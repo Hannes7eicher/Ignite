@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <p id="text">Okay.
+
+            Now the font style?</p>
+
+
+    </div>
+
+    <div class="font">
+        <button id="font1" class="font1" type="input" onclick=changeFont1()>This font</button><br><br> 
+        <button id="font2" class="font2" type="input" onclick=changeFont2()>This font</button><br><br> 
+        <button id="font3" class="font3" type="input" onclick=changeFont3()>This font</button><br><br> 
+        <button id="font4" class="font4" type="input" onclick=changeFont4()>This font</button><br><br> 
+    </div>
+
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("25.html")>continue</button><br><br> 
+    </div>
+
+    <script>
+        document.body.style.backgroundColor = localStorage.getItem("color");
+        document.getElementById("text").style.color = "black";
+        document.getElementById("myBtn1").style.color = "black";
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>

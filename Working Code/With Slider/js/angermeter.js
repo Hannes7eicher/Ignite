@@ -35,13 +35,17 @@ function setup() {
 move();
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
+output.innerHTML = slider.value;
 
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
 
 function move() {
   var elem = document.getElementById("myBar");   
   var id = setInterval(frame, 1);
   function frame() {
-       width = inData;
+       width = slider.value;
       elem.style.width = width + "%"; 
   }
 }

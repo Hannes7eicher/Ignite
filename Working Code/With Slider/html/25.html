@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <p id="text">Great.
+
+            that's for the visuals.
+
+            What should the title of the page on social media say?</p>
+
+
+    </div>
+
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("27.html")>Social media strategy</button><br><br>
+        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("27.html")>Strategies for social media</button><br><br>
+    </div>
+
+    <script>
+        document.body.style.backgroundColor = localStorage.getItem("color");
+        document.getElementById("text").style.color = "black";
+        document.getElementById("myBtn1").style.color = "black";
+        document.getElementById("myBtn2").style.color = "black";
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
