@@ -1,8 +1,69 @@
 var x = 1;
 var buttonCount = 1;
+var background;
 
 document.getElementById("myBtn1").style.textTransform = "uppercase";
 document.getElementById("myBtn1").style.textDecoration = "underline";
+
+var changeBackground1 = function () {
+    document.body.style.backgroundColor = "rgb(217, 182, 182)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(217, 182, 182)');
+}
+
+var changeBackground2 = function () {
+    document.body.style.backgroundColor = "rgb(187, 179, 227)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(187, 179, 227)');
+}
+
+var changeBackground3 = function () {
+    document.body.style.backgroundColor = "rgb(191, 234, 167)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(191, 234, 167)');
+}
+
+var changeBackground4 = function () {
+    document.body.style.backgroundColor = "rgb(230, 232, 141)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(230, 232, 141)');
+}
+
+var changeFont1 = function () {
+    document.getElementById("text").style.fontFamily = "'Courier New', monospace"; 
+}
+
+var changeFont2 = function () {
+    document.getElementById("text").style.fontFamily = "Garamond, serif"; 
+}
+
+var changeFont3 = function () {
+    document.getElementById("text").style.fontFamily = "'Trebuchet MS', sans-serif"; 
+}
+
+var changeFont4 = function () {
+    document.getElementById("text").style.fontFamily = "'Brush Script MT', cursive"; 
+}
+
+
+if (background == 0) {
+    document.body.style.backgroundColor = "rgb(0, 0, 0)";
+} else if (background == 1) {
+    document.body.style.backgroundColor = "rgb(217, 182, 182)";
+} else if (background == 2) {
+    document.body.style.backgroundColor = "rgb(187, 179, 227)";
+} else if (background == 3) {
+    document.body.style.backgroundColor = "rgb(191, 234, 167)";
+} else if (background == 4) {
+    document.body.style.backgroundColor = "rgb(230, 232, 141)";
+}
+
+
+
 
 
 

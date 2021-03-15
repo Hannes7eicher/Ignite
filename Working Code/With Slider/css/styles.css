@@ -1,4 +1,9 @@
-body {  background-color: black; overflow: hidden; }
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {  background-color: var(--black);; overflow: hidden; }
 
 h1 { color: rgb(255, 255, 255); font-size: 250%; font-family: "Courier New", monospace; }
 
@@ -145,6 +150,103 @@ p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
     left: 80%;
     font-size:2vw;
   }
+
+  .font{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:absolute;
+    bottom:150px;
+    right:0%;
+    left:0%;
+  }
+
+  .col1 {
+    position:absolute;
+    top: 60%;
+    left: 20%;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(217, 182, 182);
+    border-radius: 50%;
+    border-color: black;
+  }
+
+  .col2 {
+    position:absolute;
+    top: 60%;
+    left: 40%;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(187, 179, 227);
+    border-radius: 50%;
+    border-color: black;
+  }
+
+  .col3 {
+    position:absolute;
+    top: 60%;
+    left: 60%;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(191, 234, 167);
+    border-radius: 50%;
+    border-color: black;
+  }
+
+  .col4 {
+    position:absolute;
+    top: 60%;
+    left: 80%;
+    height: 55px;
+    width: 55px;
+    background-color: rgb(230, 232, 141);
+    border-radius: 50%;
+    border-color: black;
+  }
+
+  .font1 {
+    color: black;
+    background: none;
+    border: none;
+    font-size:1vw;
+    margin: 35px;
+    margin: 10%;
+    font-family: 'Courier New', monospace;
+  }
+
+  .font2 {
+    color: black;
+    background: none;
+    border: none;
+    font-size:1vw;
+    margin: 35px;
+    margin: 10%;
+    font-family: Garamond, serif;
+  }
+
+  .font3 {
+    color: black;
+    background: none;
+    border: none;
+    font-size:1vw;
+    margin: 35px;
+    margin: 10%;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+  .font4 {
+    color: black;
+    background: none;
+    border: none;
+    font-size:1vw;
+    margin: 35px;
+    margin: 10%;
+    font-family: 'Brush Script MT', cursive;
+  }
+
+
+
 
 
 
