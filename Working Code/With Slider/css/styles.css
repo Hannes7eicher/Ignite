@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: whitesmoke;
   font-size: 5vw;
   margin: 5%;
   font-family: "Roboto";
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: whitesmoke;
   font-size: 110%;
   margin: 5%;
   font-size: 1.2vw;
@@ -28,21 +28,21 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: whitesmoke;
   font-size: 10%;
   margin: 5%;
   font-family: "Roboto";
 }
 
 i {
-  color: white;
+  color: whitesmoke;
   font-size: 110%;
   font-family: "Roboto";
   font-size: 1.2vw;
 }
 
 p {
-  color: white;
+  color: whitesmoke;
   font-size: 110%;
   margin: 5%;
   font-family: "Roboto";
@@ -57,7 +57,7 @@ p {
 
 #soul{
   background-color: black;
-  text-decoration-color: white;
+  text-decoration-color: whitesmoke;
 }
 
 #Sophie{
