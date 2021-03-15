@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+
+
+    <div class="content">
+
+        <p id="question">
+            Hi there Soul 647, to keep track of your emotional state, please report how you feel regarding the following
+            emotion: Anger.
+
+
+            Indicate for 3 seconds to stabilise the value.
+        </p>
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=inDataStore()>confirm</button><br><br>
+        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("17.html")>continue</button><br><br>
+    </div>
+
+    <div class="w3-container">
+
+        <div class="w3-light-grey">
+            <div id="myBar" class="w3-green" style="height:24px;width:0;background-color:rgb(255, 0, 0)"></div>
+            <div>
+                <p id="anger1" class="anger1">Not angry at all</p>
+                <p id="anger2" class="anger2">Provoked</p>
+                <p id="anger3" class="anger3">Angry</p>
+                <p id="anger4" class="anger4">Very angry</p>
+                <p id="anger5" class="anger5">Furious</p>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+    <button hidden  id="saveBtn" class="saveBtn" onclick="inDataStore()">Save</button>
+
+
+
+    <p hidden id="result"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="emotion"></p>
+
+    <script src="..\js\angermeter.js"></script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
