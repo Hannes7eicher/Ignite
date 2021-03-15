@@ -6,9 +6,11 @@ h3 { color: red; font-size: 150%; }
 
 i { color: grey; font-size: 125%; }
 
-p { color: white; font-size: 125%; margin: 5%; font-size:3vw; }
+p { color: white; font-size: 100%; margin: 5%; font-size:1vw; }
 
 #dead { color: red; font-size: 150%; font-style: italic ;}
+
+h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: italic;}
 
 /* .choices {
   display: flex;
