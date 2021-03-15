@@ -130,7 +130,7 @@ p {
   color: whitesmoke;
   background: none;
   border: none;
-  margin-left: 30px;
+  align-items: center;
   font-size: 1vw;
 }
 
