@@ -1,16 +1,16 @@
-body {  background-color: black; overflow: hidden; }
+body {  background-color: black; overflow: hidden; } 
 
-h1 { color: rgb(255, 255, 255); font-size: 250%; font-family: "Courier New", monospace; }
+h1 { color: white; font-size: 150%; margin: 5%; font-family: "Courier New", monospace; }
 
 h3 { color: red; font-size: 150%; }
 
-i { color: grey; font-size: 125%; }
+i { color: white; font-size: 100%; font-family: "Cormorant Garamond" }
 
-p { color: white; font-size: 100%; margin: 5%; font-size:1vw; }
+p { color: white; font-size: 100%; margin: 5%; font-size:1vw; font-family: "Cormorant Garamond" }
 
 #dead { color: red; font-size: 150%; font-style: italic ;}
 
-h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: italic;}
+h2 { color: white; font-size: 150%; margin: 5%; font-family: "Courier New", monospace; }
 
 /* .choices {
   display: flex;
@@ -37,7 +37,8 @@ h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: itali
     color: whitesmoke;
     background: none;
     border: none;
-    font-size:1vw;
+    font-size:1.5vw;
+    font-family:"Cinzel";
     margin: 35px;
 }
 
@@ -45,7 +46,8 @@ h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: itali
   color: whitesmoke;
   background: none;
   border: none;
-  font-size:1vw;
+  font-size:1.5vw;
+  font-family:"Cinzel";
   margin: 35px;
 }
 
@@ -53,7 +55,8 @@ h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: itali
   color: whitesmoke;
   background: none;
   border: none;
-  font-size:1vw;
+  font-size:1.5vw;
+  font-family:"Cinzel";
   margin: 15px;
 }
 
@@ -147,7 +150,3 @@ h2 { color: white; font-size: 125%; margin: 5%; font-size:3vw; font-style: itali
     left: 80%;
     font-size:2vw;
   }
-
-
-
-
