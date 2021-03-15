@@ -14,27 +14,30 @@
 id="Soul">
 
 
-    <div class="content">
+      <div class="content">
 
         <h2 id="question">
             Hi there Soul 647, to keep track of your emotional state, please report how you feel regarding the following
-            emotion: <br><br>
-            Anger<br><br><br>
+            emotion:<br><br>
+            
+            Anger <br><br>
 
 
-            Indicate for 3 seconds to stabilise the value.
+            Press save to report.
         </h2>
     </div>
 
     <div class="choices">
-        <button id="myBtn1" class="myBtn1" type="input" onclick=startAnger()>start</button><br><br>
-        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("54.html")>continue</button><br><br>
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("54.html")>continue</button><br><br>
     </div>
 
     <div class="w3-container">
 
         <div class="w3-light-grey">
-            <div id="myBar" class="w3-green" style="height:24px;width:0;background-color:rgb(255, 0, 0)"></div>
+            <div id="myBar" class="w3-green"></div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+            </div>
             <div>
                 <p id="anger1" class="anger1">Not angry at all</p>
                 <p id="anger2" class="anger2">Provoked</p>
@@ -45,12 +48,22 @@ id="Soul">
         </div>
         <br>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br>
 
 
-    <button hidden  id="saveBtn" class="saveBtn" onclick="inDataStore()">Save</button>
-    
+    <button  id="saveBtn" class="saveBtn" onclick="saveValue()">Save</button>
 
-    <p hidden id="result"></p>
+
+
+    <p  id="result"></p>
 
     <br>
     <br>
@@ -58,19 +71,6 @@ id="Soul">
     <br>
 
     <p id="emotion"></p>
-
-    <script>
-        startAnger = function () {
-        setTimeout(function () {
-            autoclick();
-        }, 1000);
-    }
-
-        autoclick = function () {
-            document.getElementById("saveBtn").click();
-        }
-
-    </script>
 
     <script src="..\js\angermeter.js"></script>
 
