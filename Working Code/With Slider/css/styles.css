@@ -29,8 +29,14 @@ h2 {
 
 h3 {
   color: whitesmoke;
-  font-size: 10%;
+  font-size: 1.2vw;
   margin: 5%;
+  font-family: "Droid Sans", sans-serif;
+}
+
+h4{
+  color: whitesmoke;
+  font-size: 1.2vw;
   font-family: "Droid Sans", sans-serif;
 }
 
@@ -74,9 +80,16 @@ p {
   left: 40%;
 } */
 
+.day{
+
+  text-align: center;
+}
+
 .content{
+  display: block;
   width: 75%;
   margin: auto;
+  align-items: center;
 }
 
 
