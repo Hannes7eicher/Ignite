@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2> Hi there Soul 647,<br>
+                to keep track of your emotional state, please report how you feel regarding the following
+                emotion:</h2>
+            <h2>
+                Press save to report.
+            </h2>
+        </div>
+        <div>
+            <div class="w3-container">
+
+                <div class="w3-light-grey">
+                    <div id="myBar" class="w3-green"></div>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                    </div>
+                    <div>
+                        <h2 id="anger1" class="anger1">Not angry at all</h2>
+                        <h2 id="anger2" class="anger2">Provoked</h2>
+                        <h2 id="anger3" class="anger3">Angry</h2>
+                        <h2 id="anger4" class="anger4">Very angry</h2>
+                        <h2 id="anger5" class="anger5">Furious</h2>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div class="buttonSave">
+                <button id="saveBtn" class="saveBtn" onclick="saveValue()">Save</button>
+            </div>
+            <div class="choices">
+                <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("17.html")>continue</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="..\js\angermeter.js"></script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>

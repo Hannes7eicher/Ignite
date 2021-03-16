@@ -147,8 +147,13 @@ p {
 }
 
 .buttonSave{
-text-align: center;
-margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  right: 25%;
+  left: 25%;
 }
 
 .w3-green {
