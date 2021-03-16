@@ -68,12 +68,20 @@ function saveValue() {
     angerNumb = localStorage.setItem('angerNumb', 'slider.value');
     angerWord = localStorage.setItem('angerWord', 'Not angry at all');
     document.getElementById("anger1").style.color = "red";
+    document.getElementById("anger2").style.color = "white";
+    document.getElementById("anger3").style.color = "white";
+    document.getElementById("anger4").style.color = "white";
+    document.getElementById("anger5").style.color = "white";
     console.log(slider.value);
   }
   if (slider.value > 20 && slider.value < 40) {
     angerNumb = localStorage.setItem('angerNumb', 'slider.value');
     angerWord = localStorage.setItem('angerWord', 'Provoked');
     document.getElementById("anger2").style.color = "red";
+    document.getElementById("anger1").style.color = "white";
+    document.getElementById("anger3").style.color = "white";
+    document.getElementById("anger4").style.color = "white";
+    document.getElementById("anger5").style.color = "white";
     console.log(slider.value);
   }
 
@@ -81,6 +89,10 @@ function saveValue() {
     angerNumb = localStorage.setItem('angerNumb', 'slider.value');
     angerWord = localStorage.setItem('angerWord', 'Angry');
     document.getElementById("anger3").style.color = "red";
+    document.getElementById("anger2").style.color = "white";
+    document.getElementById("anger1").style.color = "white";
+    document.getElementById("anger4").style.color = "white";
+    document.getElementById("anger5").style.color = "white";
     console.log(slider.value);
   }
 
@@ -88,6 +100,10 @@ function saveValue() {
     angerNumb = localStorage.setItem('angerNumb', 'slider.value');
     angerWord = localStorage.setItem('angerWord', 'Very angry');
     document.getElementById("anger4").style.color = "red";
+    document.getElementById("anger2").style.color = "white";
+    document.getElementById("anger3").style.color = "white";
+    document.getElementById("anger1").style.color = "white";
+    document.getElementById("anger5").style.color = "white";
     console.log(slider.value);
   }
 
@@ -95,6 +111,10 @@ function saveValue() {
     angerNumb = localStorage.setItem('angerNumb', 'slider.value');
     angerWord = localStorage.setItem('angerWord', 'Furious');
     document.getElementById("anger5").style.color = "red";
+    document.getElementById("anger2").style.color = "white";
+    document.getElementById("anger3").style.color = "white";
+    document.getElementById("anger4").style.color = "white";
+    document.getElementById("anger1").style.color = "white";
     console.log(slider.value);
   }
 }
@@ -117,16 +137,14 @@ function inDataStore() {
   if (anger > 80) {
     emotion = "Furious";
   }
-
-  var slider = document.getElementById("myRange");
-  var output = document.getElementById("demo");
-
-  // slider.oninput = function() {
-  //   output.innerHTML = this.value;
-  // }
-
-
   localStorage.setItem("numberLS", anger);
+}
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
 }
 
 
