@@ -35,13 +35,12 @@ h3 {
 }
 
 h4{
-  color: whitesmoke;
+  color: darkgray;
   font-size: 1.2vw;
   font-family: "Droid Sans", sans-serif;
 }
 
 i {
-  color: whitesmoke;
   font-size: 110%;
   font-family: "Droid Sans", sans-serif;
   font-size: 1.2vw;
@@ -81,13 +80,14 @@ p {
 } */
 
 .day{
-
-  text-align: center;
+  position: absolute;
+  left: 2%;
 }
 
 .content{
-  display: block;
+  top: auto;
   width: 75%;
+  height: 75%;
   margin: auto;
   align-items: center;
 }
