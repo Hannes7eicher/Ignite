@@ -10,11 +10,11 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 
-<body onload="init()"
+<body
 id="Soul">
 
 
-      <div class="content">
+    <div class="content">
 
         <h2 id="question">
             Hi there Soul 647, to keep track of your emotional state, please report how you feel regarding the following
@@ -28,7 +28,7 @@ id="Soul">
     </div>
 
     <div class="choices">
-        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("54.html")>continue</button><br><br>
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("17.html")><h2>continue</h2></button><br><br>
     </div>
 
     <div class="w3-container">
@@ -39,11 +39,11 @@ id="Soul">
                 <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
             </div>
             <div>
-                <p id="anger1" class="anger1">Not angry at all</p>
-                <p id="anger2" class="anger2">Provoked</p>
-                <p id="anger3" class="anger3">Angry</p>
-                <p id="anger4" class="anger4">Very angry</p>
-                <p id="anger5" class="anger5">Furious</p>
+                <h2 id="anger1" class="anger1">Not angry at all</h2>
+                <h2 id="anger2" class="anger2">Provoked</h2>
+                <h2 id="anger3" class="anger3">Angry</h2>
+                <h2 id="anger4" class="anger4">Very angry</h2>
+                <h2 id="anger5" class="anger5">Furious</h2>
             </div>
         </div>
         <br>
@@ -58,19 +58,19 @@ id="Soul">
     <br>
     <br><br><br><br><br><br><br>
 
-
-    <button  id="saveBtn" class="saveBtn" onclick="saveValue()">Save</button>
-
-
-
     <p  id="result"></p>
 
     <br>
     <br>
     <br>
     <br>
+    <br>
+    <br>
 
-    <p id="emotion"></p>
+
+    <div class= "buttonSave">
+        <button  id="saveBtn" class="saveBtn" onclick="saveValue()"><h2>Save</h2></button>
+        </div>
 
     <script src="..\js\angermeter.js"></script>
 

@@ -130,8 +130,12 @@ p {
   color: whitesmoke;
   background: none;
   border: none;
-  align-items: center;
   font-size: 1vw;
+}
+
+.buttonSave{
+text-align: center;
+margin-bottom: 50px;
 }
 
 .w3-green {
@@ -191,37 +195,42 @@ p {
 
 .anger1 {
   position: absolute;
-  bottom: 30%;
+  bottom: 50%;
   left: 0%;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  margin: 1%;
 }
 
 .anger2 {
   position: absolute;
-  bottom: 30%;
+  bottom: 50%;
   left: 20%;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  margin: 1%;
 }
 
 .anger3 {
   position: absolute;
-  bottom: 30%;
+  bottom: 50%;
   left: 40%;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  margin: 1%;
 }
 
 .anger4 {
   position: absolute;
-  bottom: 30%;
+  bottom: 50%;
   left: 60%;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  margin: 1%;
 }
 
 .anger5 {
   position: absolute;
-  bottom: 30%;
+  bottom: 50%;
   left: 80%;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  margin: 1%;
 }
 
 .font {
