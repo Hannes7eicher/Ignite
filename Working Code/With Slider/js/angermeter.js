@@ -84,8 +84,32 @@ function incrementSeconds() {
 function saveValue() {
   if (slider.value > 0 && slider.value < 20){
     console.log(slider.value);
-     angerWord = localStorage.setItem('angerWord', 'slider.value');
-    angerNumb = localStorage.setItem('angerNumb', 'Not angry at all');
+     angerWord = localStorage.setItem('angerNumb', 'slider.value');
+    angerNumb = localStorage.setItem('angerWord', 'Not angry at all');
+  }
+
+  if (slider.value > 20 && slider.value < 40){
+    console.log(slider.value);
+    angerWord = localStorage.setItem('angerNumb', 'slider.value');
+    angerNumb = localStorage.setItem('angerWord', 'Provoked');
+  }
+
+  if (slider.value > 40 && slider.value < 60){
+    console.log(slider.value);
+    angerWord = localStorage.setItem('angerNumb', 'slider.value');
+    angerNumb = localStorage.setItem('angerWord', 'Angry');
+  }
+
+  if (slider.value > 60 && slider.value < 80){
+    console.log(slider.value);
+    angerWord = localStorage.setItem('angerNumb', 'slider.value');
+    angerNumb = localStorage.setItem('angerWord', 'Very angry');
+  }
+
+  if (slider.value > 80 ){
+    console.log(slider.value);
+    angerWord = localStorage.setItem('angerNumb', 'slider.value');
+    angerNumb = localStorage.setItem('angerWord', 'Furious');
   }
 }
 

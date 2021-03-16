@@ -95,7 +95,7 @@ var threeButton = function () {
 document.addEventListener('keydown', function (event) {
     var element2 = document.getElementById("myBtn2");
     var element3 = document.getElementById("myBtn3");
-    if (event.key === 'ArrowUp') {
+    if (event.key === 'ArrowRight') {
         changeX();
     }
     if (x == 1) {
@@ -151,15 +151,15 @@ document.addEventListener('keydown', function (event) {
         //console.log("case three");
     }
 
-    if (event.key === 'ArrowRight' && x == 1) {
+    if (event.key === 'Enter' && x == 1) {
         document.getElementById("myBtn1").click();
     }
 
-    if (event.key === 'ArrowRight' && x == 2) {
+    if (event.key === 'Enter' && x == 2) {
         document.getElementById("myBtn2").click();
     }
 
-    if (event.key === 'ArrowRight' && x == 3) {
+    if (event.key === 'Enter' && x == 3) {
         document.getElementById("myBtn3").click();
     }
 
