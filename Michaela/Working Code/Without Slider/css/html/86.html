@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <p>
+            <i> "He needs to know who the person he is promoting really is. <br><br>
+            I got the impression he didn't have a complete picture of you, 
+            so I just clarified a few things. Can you stop obsessing over it now? <br><br>
+            I think you should really cool off, it's so unattractive. 
+            Your face gets all swollen and red... I will try to forget the tone you spoke to me with, 
+            for only wanting the best for you."</i>  
+        </p> 
+         <p hidden id="anger">Anger</p>
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("85.html")>"Yeah maybe it's best if we forget about this."</button><br><br>     
+        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("87.html")>Glance at yourself in the mirror</button><br><br>     
+        <button id="myBtn3" class="myBtn3" type="input" onclick=changePage("88.html")>"No I can't stop "obsessing" over this.. But this is not leading anywhere. I need to go for a walk.. "</button><br><br>     
+    </div>
+
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html> 

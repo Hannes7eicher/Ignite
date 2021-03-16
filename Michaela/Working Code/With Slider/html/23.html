@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()"
+id="Sophie">
+<div class="day">
+    <h4><i>Tuesday, morning</i></h4>    
+    </div>
+    <br>
+    <br>
+    <div class="content">
+        <h2 id ="text">Sophie woke up in an extra great mood. She felt very motivated and excited to start working.
+            Today she has to prepare a presentation for next week and wanted to make it look extra nice, in case she
+            gets asked to present her suggestions for business strategies.
+
+
+            She still needs to edit a few things. What should the background colour of the presentation be?<br><br>
+            (Please use your mouse to select.)</h2>
+
+    </div>
+
+    <div class="colors">
+        <button id="col1" class="col1" type="input" onclick=changeBackground1()></button><br><br> 
+        <button id="col2" class="col2" type="input" onclick=changeBackground2()></button><br><br> 
+        <button id="col3" class="col3" type="input" onclick=changeBackground3()></button><br><br> 
+        <button id="col4" class="col4" type="input" onclick=changeBackground4()></button><br><br> 
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("24.html")>continue</button><br><br> 
+    </div>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
