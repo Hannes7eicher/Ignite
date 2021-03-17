@@ -10,26 +10,30 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 
-<body onload="init()"
-id="Sophie">
+<body onload="init()" id="Soul">
 
 
     <div class="content">
-        <p>
-            It was set to Alex's email address. <br><br>
-
-            Now there is no denying it.
-        </p>
+        <h2>
+            One last thing we need you to do is to write down the scores that you see on the screen.
+        </h2>
+        <h2 id="scores"></h2>
     </div>
 
     <div class="choices">
-        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("112.html")>Try to go to sleep now</button><br><br>     
-       
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("1.html")>Play again</button><br><br>
     </div>
 
+    <script>
+        scores();
+
+        function scores() {
+            document.getElementById("scores").innerHTML = angerHistory;
+        }
+    </script>
 
     <script type="text/javascript" src="../js/script.js"></script>
 
 </body>
 
-</html> 
+</html>
