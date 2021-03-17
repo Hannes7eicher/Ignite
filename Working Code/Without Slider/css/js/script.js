@@ -5,6 +5,60 @@ document.getElementById("myBtn1").style.textTransform = "uppercase";
 document.getElementById("myBtn1").style.textDecoration = "underline";
 
 
+var changeBackground1 = function () {
+    document.body.style.backgroundColor = "rgb(217, 182, 182)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(217, 182, 182)');
+}
+
+var changeBackground2 = function () {
+    document.body.style.backgroundColor = "rgb(187, 179, 227)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(187, 179, 227)');
+}
+
+var changeBackground3 = function () {
+    document.body.style.backgroundColor = "rgb(191, 234, 167)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(191, 234, 167)');
+}
+
+var changeBackground4 = function () {
+    document.body.style.backgroundColor = "rgb(230, 232, 141)";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("myBtn1").style.color = "black";
+    background = localStorage.setItem('color', 'rgb(230, 232, 141)');
+}
+
+var changeFont1 = function () {
+    document.getElementById("text").style.fontFamily = "'Courier New', monospace"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Courier New', monospace"; 
+    font = localStorage.setItem('font', 'Courier New, monospace');
+}
+
+var changeFont2 = function () {
+    document.getElementById("text").style.fontFamily = "Garamond, serif"; 
+    document.getElementById("myBtn1").style.fontFamily = "Garamond, serif"; 
+    font = localStorage.setItem('font', 'Garamond, serif');
+}
+
+var changeFont3 = function () {
+    document.getElementById("text").style.fontFamily = "'Trebuchet MS', sans-serif"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Trebuchet MS', sans-serif"; 
+    font = localStorage.setItem('font', "'Trebuchet MS', sans-serif");
+}
+
+var changeFont4 = function () {
+    document.getElementById("text").style.fontFamily = "'Brush Script MT', cursive"; 
+    document.getElementById("myBtn1").style.fontFamily = "'Brush Script MT', cursive"; 
+    font = localStorage.setItem('font', "'Brush Script MT', cursive");
+}
+
+
+
 
 var changeX = function () {
     x = x + 1;
@@ -110,19 +164,19 @@ var emotion = "";
 
 document.getElementById("anger").innerHTML = result;
 
-if (result < 50) {
-    var myObj1 = document.getElementById("myBtn2");
-    var myObj2 = document.getElementById("myBtn3");
-    myObj1.remove();
-    myObj2.remove();
-}
-else if (result > 50 && result < 70) {
-    document.getElementById("myBtn2").style.visibility = "visible";
-    var myObj = document.getElementById("myBtn3");
-    myObj.remove();
-} else if (result > 70) {
-    document.getElementById("myBtn3").style.visibility = "visible";
-}
+// if (result < 20) {
+//     var myObj1 = document.getElementById("myBtn2");
+//     var myObj2 = document.getElementById("myBtn3");
+//     myObj1.remove();
+//     myObj2.remove();
+// }
+// else if (result > 20 && result < 40) {
+//     document.getElementById("myBtn2").style.visibility = "visible";
+//     var myObj = document.getElementById("myBtn3");
+//     myObj.remove();
+// } else if (result > 50) {
+//     document.getElementById("myBtn3").style.visibility = "visible";
+// }
 
 
 document.getElementById("emotion").innerHTML = emotion;
@@ -135,5 +189,3 @@ document.getElementById("emotion").innerHTML = emotion;
 function changePage(url) {
     location.replace(url);
 }
-
-

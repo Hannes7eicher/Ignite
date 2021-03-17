@@ -14,6 +14,7 @@ var anger;
 var angerHistory = [];
 
 
+
 function setup() {
 
   //set up communication port
@@ -76,21 +77,51 @@ function incrementSeconds() {
     seconds += 1;
 }
 
+for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
 
 
   function inDataStore() {
     a = document.getElementById("result").innerHTML = inData;  
     document.getElementById("emotion").innerHTML = emotion;
     if (inData > 0 && inData < 20 ) {
-        emotion = "not so angry";
+      document.getElementById("anger1").style.color = "red";
+      document.getElementById("anger2").style.color = "white";
+      document.getElementById("anger3").style.color = "white";
+      document.getElementById("anger4").style.color = "white";
+      document.getElementById("anger5").style.color = "white";
+        emotion = "Not angry at all";
         angerHistory.push(x);
      } if (inData > 20 && inData < 40) {
+      document.getElementById("anger2").style.color = "red";
+      document.getElementById("anger1").style.color = "white";
+      document.getElementById("anger3").style.color = "white";
+      document.getElementById("anger4").style.color = "white";
+      document.getElementById("anger5").style.color = "white";
+      console.log(slider.value);
        emotion = "Provoked";
      } if (inData > 40 && inData < 60) {
+      document.getElementById("anger3").style.color = "red";
+      document.getElementById("anger2").style.color = "white";
+      document.getElementById("anger1").style.color = "white";
+      document.getElementById("anger4").style.color = "white";
+      document.getElementById("anger5").style.color = "white";
        emotion = "Angry";
     }  if (inData > 60 && inData < 80) {
+      document.getElementById("anger4").style.color = "red";
+      document.getElementById("anger2").style.color = "white";
+      document.getElementById("anger3").style.color = "white";
+      document.getElementById("anger1").style.color = "white";
+      document.getElementById("anger5").style.color = "white";
       emotion = "Very angry";
     }  if (inData > 80) {
+      document.getElementById("anger5").style.color = "red";
+      document.getElementById("anger2").style.color = "white";
+      document.getElementById("anger3").style.color = "white";
+      document.getElementById("anger4").style.color = "white";
+      document.getElementById("anger1").style.color = "white";
       emotion = "Furious";
     }
 
