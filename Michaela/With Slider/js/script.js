@@ -43,23 +43,23 @@ var changeBackground4 = function () {
 }
 
 var changeBackgroundPic1 = function () {
-    document.body.style.backgroundImage = "url(/Michaela/With%20Slider/background1.jpg)";
-    backgroundPic = localStorage.setItem("back", "url(/Michaela/With%20Slider/background1.jpg)");
+    document.body.style.backgroundImage = "url(../background1.jpg)";
+    backgroundPic = localStorage.setItem("back", "url(../background1.jpg)");
 }
 
 var changeBackgroundPic2 = function () {
-    document.body.style.backgroundImage = "url(/Michaela/With%20Slider/background2.jpg)";
-    backgroundPic = localStorage.setItem("back","url(/Michaela/With%20Slider/background2.jpg)");
+    document.body.style.backgroundImage = "url(../background2.jpg)";
+    backgroundPic = localStorage.setItem("back","url(../background2.jpg)");
 }
 
 var changeBackgroundPic3 = function () {
-    document.body.style.backgroundImage = "url(/Michaela/With%20Slider/background3.jpg)";
-    backgroundPic = localStorage.setItem("back","url(/Michaela/With%20Slider/background3.jpg)");
+    document.body.style.backgroundImage = "url(../background3.jpg)";
+    backgroundPic = localStorage.setItem("back","url(../background3.jpg)");
 }
 
 var changeBackgroundPic4 = function () {
-    document.body.style.backgroundImage = "url(/Michaela/With%20Slider/background4.jpg)";
-    backgroundPic = localStorage.setItem("back","url(/Michaela/With%20Slider/background4.jpg)");
+    document.body.style.backgroundImage = "url(../background4.jpg)";
+    backgroundPic = localStorage.setItem("back","url(../background4.jpg)");
 }
 
 var changeFont1 = function () {
