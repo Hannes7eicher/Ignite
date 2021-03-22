@@ -132,19 +132,19 @@ document.addEventListener('keydown', function (event) {
     if (x == 1) {
         document.getElementById("myBtn1").style.color = "#f4dddd";
         document.getElementById("myBtn1").style.textDecoration = "underline";
-        document.getElementById("myBtn1").style.fontSize = "20px";
+        document.getElementById("myBtn1").style.fontSize = "1.15vw";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
             document.getElementById("myBtn2").style.color = "#c6c8c8";
             document.getElementById("myBtn2").style.textDecoration = "none";
-            document.getElementById("myBtn2").style.fontSize = "19px";
+            document.getElementById("myBtn2").style.fontSize = "1vw";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
             document.getElementById("myBtn3").style.color = "#c6c8c8";
             document.getElementById("myBtn3").style.textDecoration = "none";
-            document.getElementById("myBtn3").style.fontSize = "19px";
+            document.getElementById("myBtn3").style.fontSize = "1vw";
         } 
         //console.log("case one");
         //console.log(x);
@@ -153,19 +153,19 @@ document.addEventListener('keydown', function (event) {
     if (x == 2) {
         document.getElementById("myBtn1").style.color = "#c6c8c8";
         document.getElementById("myBtn1").style.textDecoration = "none";
-        document.getElementById("myBtn1").style.fontSize = "19px";
+        document.getElementById("myBtn1").style.fontSize = "1vw";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
             document.getElementById("myBtn2").style.color = "#f4dddd";
             document.getElementById("myBtn2").style.textDecoration = "underline";
-            document.getElementById("myBtn2").style.fontSize = "20px";
+            document.getElementById("myBtn2").style.fontSize = "1.15vw";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
             document.getElementById("myBtn3").style.color = "#c6c8c8";
             document.getElementById("myBtn3").style.textDecoration = "none";
-            document.getElementById("myBtn3").style.fontSize = "19px";
+            document.getElementById("myBtn3").style.fontSize = "1vw";
 
         } 
         //console.log("case two");
@@ -174,19 +174,19 @@ document.addEventListener('keydown', function (event) {
     if (x == 3) {
         document.getElementById("myBtn1").style.color = "#c6c8c8";
         document.getElementById("myBtn1").style.textDecoration = "none";
-        document.getElementById("myBtn1").style.fontSize = "19px";
+        document.getElementById("myBtn1").style.fontSize = "1vw";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
             document.getElementById("myBtn2").style.color = "#c6c8c8";
             document.getElementById("myBtn2").style.textDecoration = "none";
-            document.getElementById("myBtn2").style.fontSize = "19px";
+            document.getElementById("myBtn2").style.fontSize = "1vw";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
             document.getElementById("myBtn3").style.color = "#f4dddd";
             document.getElementById("myBtn3").style.textDecoration = "underline";
-            document.getElementById("myBtn3").style.fontSize = "20px";
+            document.getElementById("myBtn3").style.fontSize = "1.15vw";
         } 
         //console.log("case three");
     }
