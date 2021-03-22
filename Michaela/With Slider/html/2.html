@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()"
+id="soul">
+<script>
+    setTimeout(function() {
+        changePage("3.1.html"); 
+}, 12000);
+</script>
+
+
+    <div class="content">
+        <h2>Now that you know how to navigate, you can enjoy your free time and explore around, meet up with some old soulmates, 
+            try to create good secret signals to be able to reunite when on Earth. <br><br>
+
+            Some examples to help you are: choose the same sense of humor, <br>
+            choose a place where you will meet, sketch out what your faces will look like approximately...</h2>
+    </div>
+    
+    <div class="choices">
+        <!--<button id="myBtn1" class="myBtn1" type="input" onclick=changePage("3.1.html")>CONTINUE</button><br><br>
+    </div>-->
+
+    <div class="w3-container">
+
+        <div class="w3-light-grey">
+            <div id="myBar" class="w3-green" style="height:24px;width:0;background-color:rgb(255, 0, 0)"></div>
+        </div>
+        <br>
+    </div>
+    <div class="content">
+     <h2></h2>
+    </div>
+
+
+    <button hidden  id="saveBtn" class="saveBtn" onclick="inDataStore()">Save</button>
+    
+
+    <p  id="result"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="emotion"></p>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+    
+</body>
+
+</html>
