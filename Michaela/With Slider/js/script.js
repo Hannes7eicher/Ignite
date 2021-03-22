@@ -130,54 +130,63 @@ document.addEventListener('keydown', function (event) {
         changeX();
     }
     if (x == 1) {
-        document.getElementById("myBtn1").style.color = "lightblue";
+        document.getElementById("myBtn1").style.color = "#f4dddd";
         document.getElementById("myBtn1").style.textDecoration = "underline";
+        document.getElementById("myBtn1").style.fontSize = "20px";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
-            document.getElementById("myBtn2").style.color = "white";
+            document.getElementById("myBtn2").style.color = "#c6c8c8";
             document.getElementById("myBtn2").style.textDecoration = "none";
+            document.getElementById("myBtn2").style.fontSize = "19px";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
-            document.getElementById("myBtn3").style.color = "white";
+            document.getElementById("myBtn3").style.color = "#c6c8c8";
             document.getElementById("myBtn3").style.textDecoration = "none";
+            document.getElementById("myBtn3").style.fontSize = "19px";
         } 
         //console.log("case one");
         //console.log(x);
     }
 
     if (x == 2) {
-        document.getElementById("myBtn1").style.color = "white";
+        document.getElementById("myBtn1").style.color = "#c6c8c8";
         document.getElementById("myBtn1").style.textDecoration = "none";
+        document.getElementById("myBtn1").style.fontSize = "19px";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
-            document.getElementById("myBtn2").style.color = "lightblue";
+            document.getElementById("myBtn2").style.color = "#f4dddd";
             document.getElementById("myBtn2").style.textDecoration = "underline";
+            document.getElementById("myBtn2").style.fontSize = "20px";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
-            document.getElementById("myBtn3").style.color = "white";
+            document.getElementById("myBtn3").style.color = "#c6c8c8";
             document.getElementById("myBtn3").style.textDecoration = "none";
+            document.getElementById("myBtn3").style.fontSize = "19px";
 
         } 
         //console.log("case two");
     }
 
     if (x == 3) {
-        document.getElementById("myBtn1").style.color = "white";
+        document.getElementById("myBtn1").style.color = "#c6c8c8";
         document.getElementById("myBtn1").style.textDecoration = "none";
+        document.getElementById("myBtn1").style.fontSize = "19px";
         oneButton();
         if (typeof (element2) != 'undefined' && element2 != null) {
             twoButton();
-            document.getElementById("myBtn2").style.color = "white";
+            document.getElementById("myBtn2").style.color = "#c6c8c8";
             document.getElementById("myBtn2").style.textDecoration = "none";
+            document.getElementById("myBtn2").style.fontSize = "19px";
         } 
         if (typeof (element3) != 'undefined' && element3 != null) {
             threeButton();
-            document.getElementById("myBtn3").style.color = "lightblue";
+            document.getElementById("myBtn3").style.color = "#f4dddd";
             document.getElementById("myBtn3").style.textDecoration = "underline";
+            document.getElementById("myBtn3").style.fontSize = "20px";
         } 
         //console.log("case three");
     }
