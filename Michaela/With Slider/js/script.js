@@ -3,6 +3,7 @@ var buttonCount = 1;
 var background;
 var font;
 var backgroundPic;
+var frontPageTitle = "Title";
 
 document.getElementById("myBtn1").style.textTransform = "uppercase";
 document.getElementById("myBtn1").style.textDecoration = "underline";
@@ -14,31 +15,31 @@ document.getElementById("myBtn1").style.textDecoration = "underline";
 //document.getElementById("myBtn3").style.textDecoration = "underline";
 
 var changeBackground1 = function () {
-    document.body.style.backgroundColor = "rgb(217, 182, 182)";
+    document.body.style.backgroundColor = "#193f84";
     document.getElementById("text").style.color = "black";
     document.getElementById("myBtn1").style.color = "black";
-    background = localStorage.setItem('color', 'rgb(217, 182, 182)');
+    background = localStorage.setItem('color', '#193f84');
 }
 
 var changeBackground2 = function () {
-    document.body.style.backgroundColor = "rgb(187, 179, 227)";
+    document.body.style.backgroundColor = "#84193f";
     document.getElementById("text").style.color = "black";
     document.getElementById("myBtn1").style.color = "black";
-    background = localStorage.setItem('color', 'rgb(187, 179, 227)');
+    background = localStorage.setItem('color', '#84193f');
 }
 
 var changeBackground3 = function () {
-    document.body.style.backgroundColor = "rgb(191, 234, 167)";
+    document.body.style.backgroundColor = "#0ea091";
     document.getElementById("text").style.color = "black";
     document.getElementById("myBtn1").style.color = "black";
-    background = localStorage.setItem('color', 'rgb(191, 234, 167)');
+    background = localStorage.setItem('color', '#0ea091');
 }
 
 var changeBackground4 = function () {
-    document.body.style.backgroundColor = "rgb(230, 232, 141)";
+    document.body.style.backgroundColor = "#d9aa2a";
     document.getElementById("text").style.color = "black";
     document.getElementById("myBtn1").style.color = "black";
-    background = localStorage.setItem('color', 'rgb(230, 232, 141)');
+    background = localStorage.setItem('color', '#d9aa2a');
 }
 
 var changeBackgroundPic1 = function () {
@@ -85,7 +86,16 @@ var changeFont4 = function () {
     font = localStorage.setItem('font', "'Brush Script MT', cursive");
 }
 
+//strategy variables
 
+function storeStrategy1() {
+    
+    frontPageTitle = localStorage.setItem('title', "Social Media Strategy");
+}
+
+function storeStrategy2() {
+    frontPageTitle = localStorage.setItem('title', "Strategies for Social Media");
+}
 
 
 

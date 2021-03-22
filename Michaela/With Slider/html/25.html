@@ -23,10 +23,22 @@
 
     </div>
 
+    <script>
+        function ToDo1() {
+            storeStrategy1(); 
+            changePage("26.html");
+        }
+
+        function ToDo2() {
+            storeStrategy2(); 
+            changePage("26.html");
+        }
+    </script>
+
 
     <div class="choices">
-        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("26.html")>'Social Media Strategy'</button><br><br>
-        <button id="myBtn2" class="myBtn2" type="input" onclick=changePage("26.html")>'Strategies for Social media'</button><br><br>
+        <button id="myBtn1" class="myBtn1" type="input" onclick=ToDo1()>'Social Media Strategy'</button><br><br>
+        <button id="myBtn2" class="myBtn2" type="input" onclick=ToDo2()>'Strategies for Social media'</button><br><br>
     </div>
 
     <script>
@@ -36,8 +48,8 @@
         document.getElementById("myBtn1").style.fontFamily = localStorage.getItem("font");
         document.getElementById("myBtn2").style.fontFamily = localStorage.getItem("font");
         document.getElementById("text").style.color = "black";
-        document.getElementById("myBtn1").style.color = "black";
-        document.getElementById("myBtn2").style.color = "black";
+        document.getElementById("myBtn1").style.color = "white";
+        document.getElementById("myBtn2").style.color = "white";
     </script>
 
     <script type="text/javascript" src="../js/script.js"></script>

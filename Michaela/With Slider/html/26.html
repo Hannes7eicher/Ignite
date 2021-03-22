@@ -26,15 +26,20 @@
         <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("27.html")>Save the presentation for now</button><br><br>
     
     </div>
-
+    <script type="text/javascript" src="../js/script.js"></script>
     <script>
         document.body.style.backgroundColor = localStorage.getItem("color");
         document.getElementById("text").style.color = "black";
-        document.getElementById("myBtn1").style.color = "black";
-        document.getElementById("myBtn2").style.color = "black";
+        document.getElementById("myBtn1").style.color = "white";
+        console.log(localStorage.getItem("title"));
+        console.log(frontPageTitle);
+        document.getElementById("myBtn2").style.color = "white";
+        console.log(localStorage.getItem("title"));
     </script>
 
-    <script type="text/javascript" src="../js/script.js"></script>
+
+
+    
 
 </body>
 

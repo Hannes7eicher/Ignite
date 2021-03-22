@@ -276,7 +276,7 @@ p {
   left: 20%;
   height: 55px;
   width: 55px;
-  background-color: rgb(217, 182, 182);
+  background-color: #193f84;
   border-radius: 50%;
   border-color: black;
 }
@@ -287,7 +287,7 @@ p {
   left: 40%;
   height: 55px;
   width: 55px;
-  background-color: rgb(187, 179, 227);
+  background-color: #84193f;
   border-radius: 50%;
   border-color: black;
 }
@@ -298,7 +298,7 @@ p {
   left: 60%;
   height: 55px;
   width: 55px;
-  background-color: rgb(191, 234, 167);
+  background-color: #0ea091;
   border-radius: 50%;
   border-color: black;
 }
@@ -309,7 +309,7 @@ p {
   left: 80%;
   height: 55px;
   width: 55px;
-  background-color: rgb(230, 232, 141);
+  background-color:#d9aa2a;
   border-radius: 50%;
   border-color: black;
 }
