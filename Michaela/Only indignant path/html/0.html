@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    
+    
+    <script>
+        function startTimer() {setTimeout(function() {
+            changePage("1.html"); 
+        }, 2000);}
+        </script>
+        
+        
+</head>
+
+<body onload="init()"
+id="soul" onmousemove=startTimer()>
+
+
+
+
+
+<h1 class="ml12">Hi Soul 647</h1>
+          
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </div>
+
+    <div class="choices">
+        <!--<button id="myBtn1" class="myBtn1" type="input" onclick=changePage("1.html")>Start</button><br><br>-->
+      
+    </div>
+
+    <script>
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml12');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml12 .letter',
+    translateX: [40,0],
+    translateZ: 0,
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 2800,
+    delay: (el, i) => 500 + 30 * i
+  }).add({
+    targets: '.ml12 .letter',
+    translateX: [0,-30],
+    opacity: [1,0],
+    easing: "easeInExpo",
+    duration: 2000,
+    delay: (el, i) => 100 + 30 * i
+  });
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -10,17 +10,18 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     
     
-    <script>
-        function startTimer() {setTimeout(function() {
-            changePage("1.html"); 
-        }, 2000);}
-        </script>
+    
         
         
 </head>
 
 <body onload="init()"
-id="soul" onmousemove=startTimer()>
+id="soul" >
+<script>
+  setTimeout(function() {
+      changePage("1.html"); 
+  }, 8000);
+  </script>
 
 
 
@@ -41,7 +42,7 @@ id="soul" onmousemove=startTimer()>
 var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+anime.timeline({loop: false})
   .add({
     targets: '.ml12 .letter',
     translateX: [40,0],
@@ -55,8 +56,8 @@ anime.timeline({loop: true})
     translateX: [0,-30],
     opacity: [1,0],
     easing: "easeInExpo",
-    duration: 2000,
-    delay: (el, i) => 100 + 30 * i
+    duration: 2500,
+    delay: (el, i) => 500 + 30 * i
   });
     </script>
 

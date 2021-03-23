@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()"
+id="soul">
+
+
+    <div class="content">
+        <h2>
+            We would like to thank you in advance for investing a part of your free time into the Soul Substitution program. 
+            Your achievements will be remembered and rewarded. <br> <br><br> <br><br> <br><br> <br>
+
+            Please confirm when you are ready to begin the transition into Sophie Stavoc.</h2>
+    </div>
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("6.html")>Confirm</button><br><br>
+    </div>
+
+    <script>
+        document.body.style.backgroundImage = localStorage.getItem("back");
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
