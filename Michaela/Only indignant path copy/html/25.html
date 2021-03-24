@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <h2 id="text" style="color:black">Great.
+
+            That's for the visuals.
+
+            What should the title of the page on social media say?</h2>
+
+
+    </div>
+
+    <script>
+        function ToDo1() {
+            storeStrategy1(); 
+            changePage("26.html");
+        }
+
+        function ToDo2() {
+            storeStrategy2(); 
+            changePage("26.html");
+        }
+    </script>
+
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=ToDo1()>'Social Media Strategy'</button><br><br>
+        <button id="myBtn2" class="myBtn2" type="input" onclick=ToDo2()>'Strategies for Social media'</button><br><br>
+    </div>
+
+    <script>
+        document.body.style.backgroundColor = localStorage.getItem("color");
+        document.body.style.font = localStorage.getItem("color");
+        document.getElementById("text").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("myBtn1").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("myBtn2").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("text").style.color = "black";
+        document.getElementById("myBtn1").style.color = "white";
+        document.getElementById("myBtn2").style.color = "white";
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>

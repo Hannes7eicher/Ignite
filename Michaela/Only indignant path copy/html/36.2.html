@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()">
+
+
+    <div class="content">
+        <h2 id="textSpecial" style="color:black">Title</h2>
+
+        <h2 id="text1"style="font-size:30px;color:black">
+            Creative Suggestions for 2021
+        
+        </h2>
+        <h2  style="font-size:20px;color:black">
+            
+        by Sophie Stavoc
+        </h2>
+
+
+    </div>
+
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("36.3.html") onclick=storeStrategy1()>Look at Alex</button><br><br>
+    </div>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+    <script>
+        document.body.style.backgroundColor = localStorage.getItem("color");
+        document.body.style.font = localStorage.getItem("color");
+        document.getElementById("textSpecial").innerHTML = localStorage.getItem("title");
+        document.getElementById("textSpecial").style.fontFamily = localStorage.getItem("font");
+        document.getElementById("textSpecial").style.color = "black";
+        document.getElementById("myBtn1").style.color = "black";
+        
+        document.getElementById("textSpecial").style.fontSize = "70px";
+        document.getElementById("text1").style.color = "black";
+    </script>
+
+    
+
+</body>
+
+</html>

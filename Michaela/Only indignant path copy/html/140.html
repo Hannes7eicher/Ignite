@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Experiment</title>
+    <script src="../js/p5.min.js"></script>
+    <script src="../js/p5.dom.min.js"></script>
+    <script src="../js/p5.sound.min.js"></script>
+    <script src="../js/p5.serialport.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body onload="init()"
+id="Soul">
+
+
+    <div class="content">
+        <h2>
+            We are sorry, but this option is outdated and shouldn't have been suggested by Soultopilot.<br><br>
+
+            Based on the new settings, Sophie wouldn't have made this choice anymore.
+
+
+
+
+        </h2>
+            <p hidden id="anger">Anger</p>
+    </div>
+    
+
+    <div class="choices">
+        <button id="myBtn1" class="myBtn1" type="input" onclick=changePage("82.html")>Reconsider your decision</button><br><br>
+
+    </div>
+
+    <script>
+        document.body.style.backgroundImage = localStorage.getItem("back");
+    </script>
+
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
