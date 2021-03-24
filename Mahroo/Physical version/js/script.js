@@ -44,29 +44,34 @@ var changeBackground4 = function () {
 
 var changeBackgroundPic1 = function () {
     document.body.style.backgroundImage = "url(../background1.jpg)";
-    document.body.style.backgroundSize = "auto auto"
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "100% 275%";
+    
 
     backgroundPic = localStorage.setItem("back", "url(../background1.jpg)");
 }
 
 var changeBackgroundPic2 = function () {
     document.body.style.backgroundImage = "url(../background2.jpg)";
-    document.body.style.backgroundSize = "auto auto"
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "100% 275%";
 
     backgroundPic = localStorage.setItem("back","url(../background2.jpg)");
 }
 
 var changeBackgroundPic3 = function () {
     document.body.style.backgroundImage = "url(../background3.jpg)";
-    document.body.style.backgroundSize = "auto auto"
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "100% 275%";
 
     backgroundPic = localStorage.setItem("back","url(../background3.jpg)");
 }
 
 var changeBackgroundPic4 = function () {
     document.body.style.backgroundImage = "url(../background4.jpg)";
-    document.body.style.backgroundSize = "auto auto"
-    
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "100% 275%";
+
     backgroundPic = localStorage.setItem("back","url(../background4.jpg)");
 }
 
