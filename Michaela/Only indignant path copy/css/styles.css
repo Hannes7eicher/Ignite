@@ -75,7 +75,7 @@ p {
 }
 
 #Sophie{
-  background-color: grey;
+  background-color: #77818c;
   text-decoration-color: black;
 }
 
@@ -121,6 +121,7 @@ p {
     font-size:1vw;
     margin: 35px;
     text-transform: uppercase;
+    
 }
 
 .myBtn2 {
@@ -130,6 +131,7 @@ p {
   font-size: 1vw;
   margin: 35px;
   text-transform: uppercase;
+  
 }
 
 .myBtn3 {
@@ -139,6 +141,7 @@ p {
   font-size: 1vw;
   margin: 15px;
   text-transform: uppercase;
+  
 }
 
 .special {
@@ -321,8 +324,8 @@ p {
   position: absolute;
   top: 60%;
   left: 9%;
-  height: 220px;
-  width: 360px;
+  height: 200px;
+  width: 300px;
   
   border-color: black;
 }
@@ -331,8 +334,8 @@ p {
   position: absolute;
   top: 60%;
   left: 30%;
-  height: 220px;
-  width: 360px;
+  height: 200px;
+  width: 300px;
   
   border-color: black;
 }
@@ -341,8 +344,8 @@ p {
   position: absolute;
   top: 60%;
   left: 51%;
-  height: 220px;
-  width: 360px;
+  height: 200px;
+  width: 300px;
   
   border-color: black;
 }
@@ -351,8 +354,8 @@ p {
   position: absolute;
   top: 60%;
   left: 72%;
-  height: 220px;
-  width: 360px;
+  height: 200px;
+  width: 300px;
   
   border-color: black;
 }
