@@ -48,6 +48,17 @@ h4{
   font-weight: 300;
 }
 
+h5 {
+  color: rgb(174, 179, 182);
+  font-size: 5vw;
+  margin: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 10%;
+
+}
+
 i {
   font-size: 110%;
   font-family: "Droid Sans", sans-serif;
@@ -409,3 +420,4 @@ p {
   display: inline-block;
   line-height: 1em;
 }
+
