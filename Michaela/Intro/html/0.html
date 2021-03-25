@@ -17,35 +17,31 @@
 
 <body onload="init()"
 id="soul" >
+<script type="text/javascript" src="../js/script.js"></script>
+
 <script>
   setTimeout(function() {
-      changePage("intro.2.html"); 
-  }, 4000);
-  </script> 
+      changePage("introduction.html"); 
+  }, 8000);
+  </script>
 
 
 
 
 
-<h1 class="ml12">You have been selected to substitute Soul 223, who has escaped the body of Sophie Stavoc without permission.<br /><br />
-            
-        
-    </h1>
-
-   
+<h1 class="ml12">Hi Soul 647</h1>
           
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </div>
 
     <div class="choices">
-        <!--<button id="myBtn1" class="myBtn1" type="input" onclick=changePage("intro.2.html")>Start</button><br><br>-->
+        <!--<button id="myBtn1" class="myBtn1" type="input" onclick=changePage("1.html")>Start</button><br><br>-->
       
     </div>
 
     <script>
     // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml12');
-
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
@@ -65,16 +61,10 @@ anime.timeline({loop: false})
     duration: 2500,
     delay: (el, i) => 500 + 30 * i
   });
-
-  
     </script>
 
     <script type="text/javascript" src="../js/script.js"></script>
-    <script>
-      setTimeout(function() {
-          changePage("intro.2.html"); 
-      }, 4000);
-      </script> 
+
 </body>
 
 </html>

@@ -73,7 +73,7 @@ var changeBackgroundPic4 = function () {
     document.body.style.backgroundSize = "100% 275%";
 
     backgroundPic = localStorage.setItem("back","url(../background4.jpg)");
-
+}
 var changeFont1 = function () {
     document.getElementById("text").style.fontFamily = "'Courier New', monospace"; 
     document.getElementById("myBtn1").style.fontFamily = "'Courier New', monospace"; 
@@ -263,6 +263,7 @@ document.getElementById("emotion").innerHTML = emotion;
 function changePage(url) {
     location.replace(url);
 }
+
 
 
 
