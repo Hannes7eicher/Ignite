@@ -17,11 +17,11 @@
 
 <body onload="init()"
 id="soul" >
-<!--<script>
+<script>
   setTimeout(function() {
-      changePage("introduction.html"); 
-  }, 8000);
-  </script> -->
+      changePage("intro.2.html"); 
+  }, 4000);
+  </script> 
 
 
 
@@ -29,12 +29,10 @@ id="soul" >
 
 <h1 class="ml12">You have been selected to substitute Soul 223, who has escaped the body of Sophie Stavoc without permission.<br /><br />
             
-            
-            
-    We are working on locating Soul 223 and bringing it back, but in the meantime, we need you to continue in Sophie's life as if nothing happened. <br>
-    It is a standard process and it will take several days. To you, they will probably only seem like minutes, as you will be conscious only 
-    during the parts where your input will be needed.<br><br><br>
+        
     </h1>
+
+   
           
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </div>
@@ -47,6 +45,7 @@ id="soul" >
     <script>
     // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml12');
+
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
@@ -66,6 +65,8 @@ anime.timeline({loop: false})
     duration: 2500,
     delay: (el, i) => 500 + 30 * i
   });
+
+  
     </script>
 
     <script type="text/javascript" src="../js/script.js"></script>
