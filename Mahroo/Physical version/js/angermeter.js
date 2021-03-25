@@ -195,7 +195,7 @@ function portOpen() {
 }
 
 function serialEvent() {
-  inData = Number(serial.read()) * 2.5;
+  inData = Number(serial.read()) * 2.8;
 }
 
 function serialError(err) {
