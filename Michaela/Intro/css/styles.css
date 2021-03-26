@@ -402,9 +402,9 @@ p {
 /*intro page*/
 .ml12 {
   font-weight: 290;
-  font-size: 2.3em;
+  font-size: 2.7em;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.27em;
   
 }
 
@@ -417,7 +417,7 @@ p {
   font-weight: 290;
   font-size: 1.95em;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.15em;
 }
 
 .ml13 .letter {
