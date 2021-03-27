@@ -33,7 +33,7 @@ I think it would be great if there was an improved version of the 2.9 one, where
 different endings, but have more chances to get back onto the "active" path. Also to be able to play it at least 
 two times. Some things might also be more noticeable when reading for the second time. But for that the 
 nonconfrontational path should to be edited a bit, which isn't possible time-wise right now, but in an ideal world
-I would like to do it at some point. 
+it would be great to do it at some point. 
 
 Thanks for playing! 
 
