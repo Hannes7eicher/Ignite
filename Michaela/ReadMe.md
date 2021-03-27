@@ -1,6 +1,7 @@
 # Versions
 
-The version 3.0 is one which always leads to the same ending (except for if you decide to leave the facebook
+The version 3.0
+is one which always leads to the same ending (except for if you decide to leave the facebook
 hacking be). There are small branches and differences, but the general flow is the same. It is so because the
 other path that we have created is a more "passive" one and as of now seems to be provoking more sadness
 than planned. There could be ways how to improve it and include it in the future, but for now this 
@@ -18,7 +19,8 @@ Also in this version the boss is a less negative character, to not make all the 
 
 Also just the word "anger" is highlighted in some places. 
 
-The version 2.9 is the digital version of the one played with the controller on Friday. 
+The version 2.9
+is the digital version of the one played with the controller on Friday. 
 Here it is possible to "fall" into the passive path on multiple occassions. The first branching starts with the 
 file 55. We later realised it is maybe too "cruel" to not give another chance after someone doesn't choose to talk
 to the boss immediately, so that would probably need to be changed. Also at another place in the game. That's why
