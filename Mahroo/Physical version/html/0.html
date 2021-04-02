@@ -11,17 +11,17 @@
     
     
     
-        
+    <script>
+      function startTimer() {setTimeout(function() {
+          changePage("1.html"); 
+      }, 2000);}
+      </script>
         
 </head>
 
 <body onload="init()"
-id="soul" >
-<script>
-  setTimeout(function() {
-      changePage("1.html"); 
-  }, 8000);
-  </script>
+id="soul" onmousemove=startTimer()>
+
 
 
 
@@ -42,7 +42,7 @@ id="soul" >
 var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: false})
+anime.timeline({loop: true})
   .add({
     targets: '.ml12 .letter',
     translateX: [40,0],
